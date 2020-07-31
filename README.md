@@ -15,10 +15,14 @@ To keep this example simple, I have only added one single variable to the publis
 
 As you can see in the `src/App.js` file, the variables are imported from the external package and then used within the linaria css.
 
+This is source of the example published package that has the variables :
+
+[stylevars-test https://github.com/sambhav-gore/stylevars](https://github.com/sambhav-gore/stylevars)
+
 ## Issue:
 
 Until `linaria 2.0.0-alpha.3` this used to compile and work correctly.
-After the changes introduced in `linaria 2.0.0-alpha.4` and which are part of `2.0.0-rc-0` as well, our setup and the build does not work correctly and we see the following error (see reproduction instructios):
+After the changes introduced in `linaria 2.0.0-alpha.4` and which are part of `2.0.0-rc.0` as well, our setup and the build does not work correctly and we see the following error (see reproduction instructions):
 
 ### Reproduction and Runnning instructions:
 
@@ -35,7 +39,7 @@ You can see that it runs correctly and the padding is applied to the title corre
 #### Error scenario:
 
 1. Clone this repo.
-2. Checkout branch `with-2.0.0-rc.0`
+2. Checkout branch `with-2.0.0-rc-0`
 3. `rm -rf node_modules && npm install`
 4. `npm run start`
 5. Go to http://localhost:8080
