@@ -7,7 +7,7 @@
     "start": "webpack-dev-server --hot --inline"
   },
   "dependencies": {
-    "linaria": "2.0.0-alpha.3",
+    "linaria": "2.0.0-rc.0",
     "polished": "^3.6.5",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",

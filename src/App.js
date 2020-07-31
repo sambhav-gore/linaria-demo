@@ -18,7 +18,7 @@ const styles = css`
       font-family: sans-serif;
       font-size: ${fontSize};
       color: tomato;
-      padding: ${titlePadding};
+      padding: ${titlePadding} ${titlePadding};
     }
   }
 `;
