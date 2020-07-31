@@ -1,6 +1,6 @@
 ## To reproduce the issue as decribed in the following link
 
-[link here]()
+[Unable to use imported/external variables - https://github.com/callstack/linaria/issues/646](https://github.com/callstack/linaria/issues/646)
 
 ## Problem statement
 
